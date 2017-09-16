@@ -1,0 +1,42 @@
+.block {
+	float: left;
+}
+.SearchBar {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.TracksList .card {
+	margin-bottom: 30px;
+	transition-property: box-shadow;
+	transition-duration: 0.2s;
+}
+.TracksList .card:hover {
+	box-shadow: -0.5px 0.5px 10px rgba(9,9,9,0.5);
+}
+.play-track {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.play-track-inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 80px;
+	height: 80px;
+	margin: auto;
+	padding: 13px 31px;
+	border-radius: 40px;
+	background-color: #000;
+	font-size: 2em;
+	color: #fff;
+	cursor: pointer;
+	opacity: 0;
+}
+.play-track:hover .play-track-inner{
+	opacity: 0.8;
+}
